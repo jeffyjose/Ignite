@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4507" started-at="2019-07-17T22:11:47Z" finished-at="2019-07-17T22:11:52Z">
+    <groups>
+    </groups>
+    <test name="Acceptance Test" duration-ms="4507" started-at="2019-07-17T22:11:47Z" finished-at="2019-07-17T22:11:52Z">
+      <class name="Test.us1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.us1@2ed2d9cb]" name="setup" is-config="true" duration-ms="2780" started-at="2019-07-17T22:11:47Z" finished-at="2019-07-17T22:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:Test.us1@2ed2d9cb]" name="signIn" duration-ms="927" started-at="2019-07-17T22:11:50Z" finished-at="2019-07-17T22:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="logout()[pri:1, instance:Test.us1@2ed2d9cb]" name="logout" duration-ms="400" started-at="2019-07-17T22:11:51Z" finished-at="2019-07-17T22:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Test.us1@2ed2d9cb]" name="quit" is-config="true" duration-ms="355" started-at="2019-07-17T22:11:51Z" finished-at="2019-07-17T22:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Test.us1 -->
+    </test> <!-- Acceptance Test -->
+  </suite> <!-- Suite -->
+</testng-results>
